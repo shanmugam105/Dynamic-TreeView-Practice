@@ -1,0 +1,197 @@
+{
+  "item" : [
+    {
+      "item_count" : 0,
+      "item_tax" : 0,
+      "image" : "",
+      "food_id" : 1851,
+      "offer_amount" : 0,
+      "add_ons" : [
+
+      ],
+      "discount_type" : 0,
+      "price" : 7,
+      "name_greek" : "dosa",
+      "description" : "dosa",
+      "is_veg" : 0,
+      "food_quantity" : [
+
+      ],
+      "target_amount" : 0,
+      "name" : "dosa",
+      "food_offer" : "",
+      "description_greek" : "dosa",
+      "main_ingredient_group" : [
+        {
+          "alias_name" : "Garnish",
+          "name" : "Garnish",
+          "name_greek" : "Garnish",
+          "min" : 1,
+          "id" : 107,
+          "sub_choice_id" : 107,
+          "status" : 1,
+          "max" : 1,
+          "price" : 1,
+          "is_select_ingredient_count" : 0,
+          "group_ingredient" : [
+            {
+              "parent_id" : "107",
+              "id" : 1103,
+              "price" : 2,
+              "is_having_subchoice" : 0,
+              "sub_choice_group_ingredient" : [
+                {
+                  "id" : 106,
+                  "alias_name" : "Topping",
+                  "status" : 1,
+                  "name" : "Topping",
+                  "min" : 0,
+                  "max" : 1,
+                  "is_having_ingredient" : 0,
+                  "sub_choice_id" : 106,
+                  "parent_id" : "107,1103",
+                  "main_parent_id" : 1103,
+                  "group_ingredient" : [
+                    {
+                      "name_greek" : "Cheese",
+                      "id" : 1152,
+                      "status" : 1,
+                      "name" : "Cheese",
+                      "parent_id" : "107,1103,106",
+                      "is_selected" : 0,
+                      "sub_choice_id" : 106,
+                      "is_having_ingredient" : null,
+                      "price" : 1,
+                      "main_parent_id" : 1103
+                    },
+                    {
+                      "name_greek" : "instant juice",
+                      "id" : 1153,
+                      "status" : 1,
+                      "name" : "instant juice",
+                      "parent_id" : "107,1103,106",
+                      "is_selected" : 0,
+                      "sub_choice_id" : 106,
+                      "is_having_ingredient" : null,
+                      "price" : 1,
+                      "main_parent_id" : 1103
+                    }
+                  ],
+                  "price" : 1,
+                  "name_greek" : "Topping",
+                  "is_select_ingredient_count" : 0
+                },
+                {
+                  "id" : 108,
+                  "alias_name" : "fruit juice",
+                  "status" : 1,
+                  "name" : "fruit juice",
+                  "min" : 1,
+                  "max" : 1,
+                  "is_having_ingredient" : 0,
+                  "sub_choice_id" : 108,
+                  "parent_id" : "107,1103",
+                  "main_parent_id" : 1103,
+                  "group_ingredient" : [
+                    {
+                      "name_greek" : "apple juice",
+                      "id" : 1067,
+                      "status" : 1,
+                      "name" : "apple juice",
+                      "parent_id" : "107,1103,108",
+                      "is_selected" : 0,
+                      "sub_choice_id" : 108,
+                      "is_having_ingredient" : null,
+                      "price" : 1,
+                      "main_parent_id" : 1103
+                    },
+                    {
+                      "name_greek" : "orange juice",
+                      "id" : 1068,
+                      "status" : 1,
+                      "name" : "orange juice",
+                      "parent_id" : "107,1103,108",
+                      "is_selected" : 0,
+                      "sub_choice_id" : 108,
+                      "is_having_ingredient" : null,
+                      "price" : 2,
+                      "main_parent_id" : 1103
+                    },
+                    {
+                      "name_greek" : "butter",
+                      "id" : 1069,
+                      "status" : 1,
+                      "name" : "butter",
+                      "parent_id" : "107,1103,108",
+                      "is_selected" : 0,
+                      "sub_choice_id" : 108,
+                      "is_having_ingredient" : null,
+                      "price" : 1,
+                      "main_parent_id" : 1103
+                    },
+                    {
+                      "name_greek" : "ginger icecream",
+                      "id" : 1070,
+                      "status" : 1,
+                      "name" : "ginger icecream",
+                      "parent_id" : "107,1103,108",
+                      "is_selected" : 0,
+                      "sub_choice_id" : 108,
+                      "is_having_ingredient" : null,
+                      "price" : 1,
+                      "main_parent_id" : 1103
+                    },
+                    {
+                      "name_greek" : "lime ice cream",
+                      "id" : 1071,
+                      "status" : 1,
+                      "name" : "lime ice cream",
+                      "parent_id" : "107,1103,108",
+                      "is_selected" : 0,
+                      "sub_choice_id" : 108,
+                      "is_having_ingredient" : null,
+                      "price" : 1,
+                      "main_parent_id" : 1103
+                    }
+                  ],
+                  "price" : 10,
+                  "name_greek" : "fruit juice",
+                  "is_select_ingredient_count" : 0
+                }
+              ],
+              "is_selected" : 0,
+              "name_greek" : "Cheese",
+              "name" : "Cheese",
+              "main_parent_id" : 107,
+              "child_sub_groups" : [
+                106,
+                108
+              ],
+              "status" : 1,
+              "sub_choice_id" : 107
+            },
+            {
+              "parent_id" : "107",
+              "id" : 1104,
+              "price" : 1,
+              "is_having_subchoice" : 0,
+              "sub_choice_group_ingredient" : [
+
+              ],
+              "is_selected" : 0,
+              "name_greek" : "yoke",
+              "name" : "yoke",
+              "main_parent_id" : 107,
+              "child_sub_groups" : [
+
+              ],
+              "status" : 1,
+              "sub_choice_id" : 107
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status" : true
+}
